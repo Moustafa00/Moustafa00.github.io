@@ -75,19 +75,28 @@ const ExperienceCard = ({
               renderSkeleton()
             ) : (
               <Fragment>
-                {experiences.map((experience, index) => (
-                  <ListItem
-                    key={index}
-                    time={`${experience.from} - ${experience.to}`}
-                    position={experience.position}
-                    company={experience.company}
-                    companyLink={
-                      experience.companyLink
-                        ? experience.companyLink
-                        : undefined
-                    }
-                  />
-                ))}
+                {experiences.map((experience, index) => {
+                  let time;
+                  if (experience.from && experience.to) {
+                    time = `${experience.from} - ${experience.to}`;
+                  } else if (experience.from) {
+                    time = experience.from;
+                  } else if (experience.to) {
+                    time = experience.to;
+                  }
+  
+                  return (
+                    <ListItem
+                      key={index}
+                      time={time}
+                      position={experience.position}
+                      company={experience.company}
+                      companyLink={
+                        experience.companyLink ? experience.companyLink : undefined
+                      }
+                    />
+                  );
+                })}
               </Fragment>
             )}
           </ol>
