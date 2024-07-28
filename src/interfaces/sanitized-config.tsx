@@ -93,10 +93,11 @@ export interface SanitizedEducation {
 
 export interface SanitizedPublication {
   title: string;
-  conferenceName?: string;
-  journalName?: string;
-  authors?: string;
-  link?: string;
+  imageUrl?: string;
+  // conferenceName?: string;
+  // journalName?: string;
+  // authors?: string;
+  // link?: string;
   description?: string;
 }
 

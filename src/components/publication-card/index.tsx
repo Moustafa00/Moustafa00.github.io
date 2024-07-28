@@ -75,45 +75,61 @@ const PublicationCard = ({
 
   const renderPublications = () => {
     return publications.map((item, index) => (
-      <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
-        key={index}
-        href={item.link}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <div className="p-8 h-full w-full">
-          <div className="flex items-center flex-col">
-            <div className="w-full">
-              <div className="px-4">
-                <div className="text-center w-full">
-                  <h2 className="font-medium opacity-60 mb-2">{item.title}</h2>
-                  {item.conferenceName && (
-                    <p className="text-base-content opacity-50 text-sm">
-                      {item.conferenceName}
-                    </p>
-                  )}
-                  {item.journalName && (
-                    <p className="text-base-content opacity-50 text-sm">
-                      {item.journalName}
-                    </p>
-                  )}
-                  {item.authors && (
-                    <p className="text-base-content opacity-50 text-sm">
-                      Author: {item.authors}
-                    </p>
-                  )}
-                  {item.description && (
-                    <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
-                      {item.description}
-                    </p>
-                  )}
-                </div>
+      <div
+      className="card shadow-lg compact bg-base-100"
+      key={index}
+      style={{
+        position: 'relative', // Ensure the child pseudo-element is positioned correctly
+        overflow: 'hidden' // Ensure the overlay doesn't exceed the boundaries of the parent element
+      }}
+    >
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundImage: `url(${item.imageUrl})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.2,
+          zIndex: 0 // Ensure this is behind the content
+        }}
+      />
+      <div className="p-6 h-full w-full" style={{ position: 'relative', zIndex: 1 }}>
+        <div className="flex items-center flex-col">
+          <div className="w-full">
+            <div className="px-4">
+              <div className="text-center w-full">
+                <h2 className="font-medium opacity-90 mb-2">{item.title}</h2>
+                {/* {item.conferenceName && (
+                  <p className="text-base-content opacity-50 text-sm">
+                    {item.conferenceName}
+                  </p>
+                )}
+                {item.journalName && (
+                  <p className="text-base-content opacity-50 text-sm">
+                    {item.journalName}
+                  </p>
+                )}
+                {item.authors && (
+                  <p className="text-base-content opacity-50 text-sm">
+                    Author: {item.authors}
+                  </p>
+                )} */}
+                {item.description && (
+                  <p className="mt-6 text-base-content text-opacity-90 text-m text-justify">
+                    {item.description}
+                  </p>
+                )}
               </div>
             </div>
           </div>
         </div>
-      </a>
+      </div>
+    </div>
+    
     ));
   };
 
@@ -130,7 +146,7 @@ const PublicationCard = ({
                       skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Publications
+                        Interests & Hobbies
                       </span>
                     )}
                   </h5>

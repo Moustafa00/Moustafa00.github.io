@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['Moustafa00/coursera-fewdwr','Moustafa00/Moustafa00.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Moustafa00/Organizational-Task-Management-System','HalcyonAbsedion/BilMant2a'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,7 +52,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Moustafa Jarjour',
     description: '',
     imageURL: '',
   },
@@ -70,7 +70,7 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'moustafajarjour',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
@@ -83,18 +83,47 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Laravel',
-    'Flutter',
-    'SQL',
-    'Python',
-    'Git',
+    
+    
+    
+    
     'Java',
-    'OOP',
-    'Data Structures',
     'Algorithms',
+    'Data Structures',
+    'OOP',
+
+   
+    
+    'Python',
+    'Numpy',
+    'PyTorch',
+    'OpenCV',
+    'Pandas',
+    'Scikit-Learn',
+
+   
+    
+   
+    
+    // 'Web Semantics',
     'SDLC',
-    'Agile Methodolgies',
-    'Data Modeling',
+    'Design Patterns',
+     'SQL',
+     'Data Modeling',
+    'Html/Css',
+    'Vue',
+    'Laravel',
+    'RESTful API',
+    
+    'Git',
+   
+
+    
+    
+
+    
+    'Flutter',
+    'Firebase',
   ],
   experiences: [
     {
@@ -121,10 +150,28 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'LCPC Certificate of Achievement',
+      body: 'International Collegiate Programming Contest',
+      year: 'Sep 2023',
+      // link: 'https://example.com',
+    },  
+    {
+      name: 'Google Devathon Certificate',
+      body: 'Google Developer Groups',
+      year: 'Dec 2023',
+      // link: 'https://example.com',
+    },
+    {
+      name: 'Certificate of Completion',
+      body: 'XpertBot',
+      year: 'Sep 2022',
+      // link: 'https://example.com',
+    },
+    {
+      name: 'Digital Literacy Certification',
+      body: 'IC3',
+      year: 'Jan 2022',
+      // link: 'https://example.com',
     },
   ],
   educations: [
@@ -138,28 +185,54 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Chess Aficionado',
+      // conferenceName: '',
+      // journalName: 'Journal Name',
+      // authors: 'John Doe, Jane Smith',
+      // link: 'https://example.com',
+      imageUrl:
+            'https://i.pinimg.com/originals/3d/ee/25/3dee25d26678c4503cc40d4d91baae7d.jpg',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'For me, chess is the perfect mix of intellect and strategy. It\'s a great way to exercise my problem-solving skills and think analytically, all while teaching patience and exploring new possibilities with every move.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Typing Virtuoso',
+      imageUrl:
+            'https://img.freepik.com/premium-photo/hand-typing-keyboard-with-blue-background_919772-29.jpg',
+      // conferenceName: 'Conference Name',
+      // journalName: '',
+      // authors: 'John Doe, Jane Smith',
+      // link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'To me, typing is an art form where precision meets rhythm. With a speed of over 100 wpm, I find joy in the flow of each keystroke, perfecting the harmony between speed and accuracy in a graceful dance with the keyboard.',
+    },
+    {
+      title: 'Celestial Explorer',
+      imageUrl:
+            'https://t3.ftcdn.net/jpg/08/16/22/04/360_F_816220481_lyzP10vKSmwjiWaomtGvQWbJNkkYgWZH.jpg',
+      // conferenceName: 'Conference Name',
+      // journalName: '',
+      // authors: 'John Doe, Jane Smith',
+      // link: 'https://example.com',
+      description:
+        'Star gazing is my gateway to the cosmos, where wonder and discovery blend seamlessly. It sparks my imagination, fuels my curiosity, and offers a serene escape as I explore the mysteries of the night sky.',
+    },
+    {
+      title: 'Avian Harmony Seeker',
+      imageUrl:
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyA9kQJfDXYaJckadotOZROFo1gnYeR3iBuA&s',
+      // conferenceName: 'Conference Name',
+      // journalName: '',
+      // authors: 'John Doe, Jane Smith',
+      // link: 'https://example.com',
+      description:
+        'Bird watching is a journey into nature’s elegance. Watching birds navigate the sky with intuitive grace and fluidity brings a sense of tranquility and connection to the natural world, offering a continuous flow of inspiration and wonder.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'moustafajarjour', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
