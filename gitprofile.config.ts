@@ -29,24 +29,24 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Reports/References & Demos',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'BilMant2a Documentation SRS',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Comprehensive blueprint detailing the development, management, requirements, design, implementation, testing, and future enhancements of an actualized and operational project.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          // link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Diet Center System SRS ',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'Holistic guide outlining the introduction, goals, feasibility, management, requirements, design, methodology, testing, and future work for a conceptual dietary management system',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://docs.google.com/document/d/1DR72UMBdY1DNnQRGHWmnO27x-jbCLDI31LvCsgfjHgU/edit',
         },
       ],
     },
@@ -91,12 +91,13 @@ const CONFIG = {
     'Algorithms',
     'Data Structures',
     'OOP',
+    'Selenium',
 
    
     
     'Python',
     'Numpy',
-    'PyTorch',
+    // 'PyTorch',
     'OpenCV',
     'Pandas',
     'Scikit-Learn',
@@ -178,8 +179,8 @@ const CONFIG = {
     {
       institution: 'Beirut Arab University',
       degree: 'Bsc Computer Science GPA:3.92/4',
-      from: '2021',
-      to: '2023',
+      from: 'Sep 2021',
+      to: 'June 2024',
     },
     
   ],

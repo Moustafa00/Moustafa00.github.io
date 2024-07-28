@@ -69,7 +69,7 @@ const ExternalProjectCard = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+        className="card shadow-lg compact bg-base-100 cursor-pointer hover:shadow-2xl transition-shadow duration-300 ease-in-out"
         key={index}
         href={item.link}
         onClick={(e) => {
@@ -93,7 +93,7 @@ const ExternalProjectCard = ({
             <div className="w-full">
               <div className="px-4">
                 <div className="text-center w-full">
-                  <h2 className="font-medium text-center opacity-60 mb-2">
+                  <h2 className="font-bold text-2xl opacity-80 mb-4">
                     {item.title}
                   </h2>
                   {item.imageUrl && (
@@ -111,7 +111,7 @@ const ExternalProjectCard = ({
                       </div>
                     </div>
                   )}
-                  <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
+                  <p className="mt-2 text-lg text-opacity-70 text-justify">
                     {item.description}
                   </p>
                 </div>
