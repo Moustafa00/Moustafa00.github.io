@@ -38,7 +38,7 @@ const CONFIG = {
             'Comprehensive blueprint detailing the development, management, requirements, design, implementation, testing, and future enhancements of an actualized and operational project.',
           // imageUrl:
           //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          // link: 'https://example.com',
+          link: 'https://docs.google.com/document/d/1Ltbm7t5RBtjpnkSASHKuxtlfPpZQdDACIExZYFOth1w/edit?usp=sharing',
         },
         {
           title: 'Diet Center System SRS ',
@@ -128,16 +128,23 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'The Sparks Foundation',
+      position: 'Data Science & Business Analytics Intern (Graduate Program)',
+      from: 'June 2024',
+      to: 'July 2024',
+      companyLink: 'https://truecertificates.com/verified/L2L9GQ3SG6',
+    },
+    {
       company: 'Google Developer Groups',
       position: 'Devathon Competition',
       to: 'Dec 2023',
-      companyLink: 'https://xpertbotacademy.online/',
+      companyLink: 'https://gdg.community.dev/',
     },
     {
       company: 'ICPC',
       position: 'LCPC Programming Competition',
       to: 'Sep 2023',
-      companyLink: 'https://xpertbotacademy.online/',
+      companyLink: 'https://icpc.global/',
     },
     {
       company: 'XpertBot',
