@@ -33,6 +33,38 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Devathon Competition University Acknowledgment',
+          description:
+            'Beirut Arab University proudly acknowledges our team\'s achievement in the Devathon competition, where we secured 3rd place among Lebanese universities. This recognition highlights our commitment to excellence and innovation in software development.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://www.bau.edu.lb/Science/Event/Google-Devathon-GDSC-2023',
+        },
+        {
+          title: 'Official GDG Devathon Competition Page Reference',
+          description:
+            'Official GDG Devathon competition page for detailed information on the event. Explore how teams, including ours, showcased their skills and competed at the national level.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://gdsc.community.dev/events/details/developer-student-clubs-university-of-balamand-koura-presents-google-devathon/',
+        },
+        {
+          title: 'XpertBot Internship Certificate of Completion',
+          description:
+            'Certified completion of the XpertBot Academy program, showcasing proficiency in web development with Laravel, VueJS, and Git. Issued September 15, 2022.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://xpertbotacademy.online/students/a00976c0-7c83-45f0-86a6-a78acd2efd4c',
+        },
+        {
+          title: 'LCPC 2023 Results BAU Reference',
+          description:
+            'View the official results of the 2023 Lebanese Collegiate Programming Contest (LCPC) where BAU achieved 14th place among 59 teams and ranked 4th among participating universities.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://www.bau.edu.lb/Science/Event/Google-Devathon-GDSC-2023',
+        },
+        {
           title: 'BilMant2a Documentation SRS',
           description:
             'Comprehensive blueprint detailing the development, management, requirements, design, implementation, testing, and future enhancements of an actualized and operational project.',
